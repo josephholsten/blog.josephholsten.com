@@ -1,0 +1,24 @@
+Introducing Discodactyl
+
+I've got a little bit of software to release. It's called discodactyl, and it's a web discovery toolkit extracted out of my attempts to build a webfinger client in ruby.
+
+  % webfinger bradfitz@gmail.com                 
+  Name: Brad Fitzpatrick
+  Title: Hacker
+  Organization: Google
+  Profile: http://www.google.com/profiles/bradfitz
+  Contacts: http://www-opensocial.googleusercontent.com/api/people/
+  Status: bradfitz: A couple hundred free Nexus One phones are all first-boot 
+  chiming in unison in the audience...  #android bootcamp at #oscon about 9 
+  hours ago
+
+
+Right now you can build a webfinger client in three lines!
+
+Of course, discodactyl isn't the only webfinger toolkit for ruby right now. Redfinger is an excellent project by the folks of intridea, and I've taken a few of their ideas. In particular, it's put a lot of thought into how to display user information. It will scrape the hCard from a link in a user's disco doc and show that as well. It's like a throwback to the days when finger actually worked.
+
+In the future, I hope discodactyl can be part of the next generation of open stack tools for OAuth, OpenID and the wider effort to put linked data on the web. 
+
+In that vein, I've got a few projects to go with disco. First among them is a toolkit for editing XRD documents. With that working, I intend to get an XRD provisioning app together. We've long been talking about attaching services to digital identities, and it's critical that we get an easy way to have users add and remove services. Ultimately, adding a new service should be as simple as going to the site, using your OpenID to register and authenticate, and while you're authorizing the service to see your personal information, you also grant it access to add its service links to your disco doc.
+
+XRD provisioning isn't the only thing discodactyl is good for though. I'm currently in the process of building salmon tools to generate and verify salmon replies. Particularly interesting is the way tha salmon discovers public keys throuh XRD. I'm pretty sure I've got that working on my local machine. we'll see shortly when I have the guys at IIW get me some sample data.

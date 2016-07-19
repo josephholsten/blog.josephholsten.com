@@ -1,0 +1,25 @@
+Derrida has a lovely little essay trying to define the word deconstruction, Letter to a Japanese Friend. One bit is notable to the modern programmer:
+
+> As you know, one of the principal 
+> things at stake in what is called in my 
+> texts "deconstruction" is precisely the 
+> delimiting of ontology and above all of
+> the third person present indicative:
+> S is P.
+
+It's amazing how very much this third person indicative is what I do all day long. Even more, understanding the subtle differences between its use application is essential to learning the difference between approaches to both variable scope binding and function evaluation strategy.
+
+Perl and JavaScript make for interesting code precisely because the scope binding available is flexible, especially to the Java and C expectations of nearly lexical scope.
+
+Perl lets you define a variable as dynamically bound with the keyword local. This lets you pass the variable's bound meaning into a called function. This is different from using lexical scope with the keyword my, which defers to the meaning present at the time of the function's definition. For example:
+
+  $x = 0;
+  sub access_in_scope { return $x; }
+  sub dynamic_caller { local $x = 1; return access_in_scope(); }
+  sub lexical_caller { my $x = 1; return access_in_scope(); }
+  assert( dynamic_caller() == 1 );
+  assert( lexical_caller() == 0 );
+
+In JavaScript, You've got a slightly different issue. The language is naturally scoped, but often you'll want to bind a function to a diffnt scope. Jquery uses this to great effect especially in it's chain able functions that can be applied to an array if selected elements from a document, where your function will be applied in the scope of each individual from the array. The important point to understand is hat the calling function gets to decide what scope is applied to the function.  Of course, sometimes you don't want that. So prototype.js provides a function to bind a function to a particular scope so that calling context isn't able to override it. 
+
+

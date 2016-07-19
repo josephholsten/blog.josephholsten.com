@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <title>{{title}} {{blog_title}}</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="{{author}} | {{blog_title}}">
+  <meta property="og:url" content="{{#posts}}{{#is_post}}{{permalink}}{{/is_post}}{{/posts}}">
+  <meta property="og:site_name" content="{{#posts}}{{#is_post}}{{title}} - {{/is_post}}{{/posts}}{{author}}">
+  <meta property="og:title" content="{{#posts}}{{#is_post}}{{title}} - {{/is_post}}{{/posts}}{{author}}" />
+  <meta property="og:description" content="{{author}} | {{blog_title}}" />
+  <meta property="og:type" content="article" />
+  <meta property="fb:app_id" content="241164325961701" />
+  <link rel="canonical" href="{{#posts}}{{#is_post}}{{permalink}}{{/is_post}}{{/posts}}" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{base_url}}/feed" />
+  {{css}}
+  <style>#top-header{background-image: url("{{cover_image}}");}a:hover,blockquote,article.archive .archive-link a:hover {border-color:{{accent_color}}}#articles h2 a:hover,#top-header:hover,#top-header:hover h1{color:{{accent_color}}}pre:hover,body:before{background:{{accent_color}}}</style>
+  <script src="/themes/{{theme}}/assets/js/respond.min.js"></script>
+   <link href=" http://assets.josephholsten.com/styles/solarized-light.css" type="text/css" rel="stylesheet" />
+</head>
+  <body>
+    <header class="parallax" data-velocity="-.2" id="top-header">
+      <div class="group content">
+        <nav id="main-nav">
+          <ul>{{#pages}}<li><a href="{{permalink}}">{{title}}</a></li>{{/pages}}</ul>
+        </nav>
+        <hgroup id="main-header">
+          <h1><a href="{{base_url}}">{{blog_title}}</a></h1>
+          <div class="author">
+            <p>{{author}}</p>
+          </div>
+        </hgroup>
+      </div>
+      <div></div>
+		</header>
+		<section id="articles" class="{{page}}">
+      {{#posts}}
+        {{^is_archive}}
+          <article>
+            <div class="content">
+              {{#date}}<div class="date">{{prettydate}}</div>{{/date}}
+              <div class="articlepost">
+                <header>
+                  <h2><a href="{{permalink}}">{{title}}</a> {{#post_permalink}}<a href="{{post_permalink}}">#</a>{{/post_permalink}}</h2>
+                </header>
+                {{#excerpt}}<span class="introduction">{{excerpt}}</span>{{/excerpt}}
+                {{content}}
+                {{#if_tags}}
+                  <ul class="tags">
+                    {{#tags}}<li><a href="{{base_url}}/tag/{{name}}">{{name}}</a></li>{{/tags}}
+                  </ul>  
+                {{/if_tags}}
+              </div>
+            </div>
+          </article>
+        {{/is_archive}}
+
+        <!-- archive -->
+        {{#is_archive}}
+          <article class="archive{{#archive_divider}} archive-devider{{/archive_divider}} {{archive_divider_index}}">
+            <div class="content">
+              {{#archive_divider}}<div class="archive-date-divider">{{archive_divider}}</div>{{/archive_divider}}
+               <span class="archive-date">{{prettydate}}</span>
+               <span class="archive-link"><a href="{{permalink}}">{{title}}</a>
+                 {{#post_permalink}} <a href="{{post_permalink}}">#</a>{{/post_permalink}}
+               </span>
+              {{#excerpt}}<span class="introduction">{{excerpt}}</span>{{/excerpt}}
+            </div>
+          </article>
+        {{/is_archive}}
+      {{/posts}}
+
+      <!-- 404 -->
+      {{^posts}}
+        <article>
+          <div class="content">
+            <div class="articlepost">
+              <header>
+                <h2><a href="{{base_url}}">Found nothing to read, sorry.</a></h2>
+              </header>
+            </div>
+          </div>
+        </article>
+      {{/posts}}
+      
+      {{#is_archive}}
+        <!-- used to give the archive bottom some nice spacing... -->
+        <div class="archive-foot"></div>
+      {{/is_archive}}
+      
+		</section>
+    <section class="pagination">
+      <div class="content">{{pagination}}</div>
+    </section>
+		<footer>
+		  <div class="content">
+		    {{blog_title}}
+		  </div>
+		</footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/themes/{{theme}}/app.js"></script>
+  </body>
+</html>

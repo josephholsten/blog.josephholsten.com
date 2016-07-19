@@ -1,0 +1,25 @@
+Automation as Documentation
+
+Writing documentation kinda sucks. That's part of the reason behavior driven development is so appealing: it's about only documenting business value and making sure it works. Focusing on business value lets devs only write enough docs to matter, only write enough tests to matter. It still sucks, but at least it matters.
+
+But so far that documentation is hardly happening outside application development. I've worked on projects where setting up a development machine requires sitting the new kid's laptop with the project lead for a week while they try to get all the forgotten dependencies set up and the lore of app scripting passed to the next generation. Of course, there's always a README that no one follows or updates. And maybe that's okay for a personal development machine. Mac vs Linux, emacs vs vi, every dev is going to have a slightly custom setup.
+
+Unfortunately, setting up a new production box tends to be the same. How do I hook up the load balancer to the new app server? Who's got credentials for the DNS server? How many places do I need to make config changes when we upgrade the log server? Who actually knows the answers to these questions?
+
+That's where change and config management tools are awesome. If you get infrastructure totally automated, it's the one place where all that black magic can get collected.
+
+When you start automating infrastructure, it becomes blindingly obvious that some really important ops issues tend to get ignored.
+
+You run backups, right? Are you sure? When was the last time you restored from one of those backups and made sure it actually worked? What would if you actually promoted the backup server to master in production?
+
+And you use capistrano, so you can roll back bad revisions and database migrations, right? Are you sure? When was the last time you looked at all the things that happen when you deploy and made sure they happen in the right order when rolling back? What would happen if you rolled back to yesterday's release for an hour, then rolled forward again?
+
+And while you may love your hosting provider today, what happens if they go out of business in a month? Do you know how to move without taking your site down? When you automate system config, you see all those dependencies in one place.
+
+But it's not all wine and roses yet. There's a reason that people don't associate BDD with xUnit, but with xSpec and Cucumber. You can use traditional testing frameworks and still get all the benefits of BDD. But the new frameworks are awesome because a little syntactic sugar that keeps you in the right mindset helps a lot, especially when you're new to the 'code as documentation' concept. System automation frameworks don't have that syntax sweetness, but if we want to get there we'll need to imagine what it'll look like when we arrive.
+
+There's definately folks that are trying to make things better. cucumber-nagios keeps the tests in high-level user stories, and that's great for focusing on business value.
+
+But there isn't a good fine grained testing framework for working with system automation. It's certainly possible to use xSpec or xUnit, but it seems like there could be something more integrated with tools like puppet or chef. Both strive to set up resources in an idempotent way, so almost all resources have a way of testing state.
+
+If we really want documenting infrastructure to suck less, we need a way to test resource state just like our system automation does, but be able to write it in a way that actually looks like docs.

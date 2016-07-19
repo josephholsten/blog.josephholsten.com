@@ -1,0 +1,24 @@
+So you'd like to play with a programming language that lets you make beautiful things? Why don't you try processing? Actually, since everyone says javascript is cooler than java, try <a href="http://ejohn.org/blog/processingjs">procesing.js</a>. Isn't it beautiful? Oh, you're overwhelmed by the demos? Well I thought these were cool.
+
+http://ejohn.org/apps/processing.js/examples/custom/molten.html
+
+basic
+
+* http://ejohn.org/apps/processing.js/examples/custom/substrate.html
+* http://ejohn.org/apps/processing.js/examples/basic/bezierellipse.html
+* http://ejohn.org/apps/processing.js/examples/basic/mouse2d.html
+* http://ejohn.org/apps/processing.js/examples/basic/keyboardfunctions.html
+* http://ejohn.org/apps/processing.js/examples/basic/distance2d.html
+
+topical
+
+* http://ejohn.org/apps/processing.js/examples/topics/wolfram.html
+* http://ejohn.org/apps/processing.js/examples/topics/conway.html
+* http://ejohn.org/apps/processing.js/examples/topics/bouncybubbles.html
+* http://ejohn.org/apps/processing.js/examples/topics/collision.html
+* http://ejohn.org/apps/processing.js/examples/topics/reflection1.html
+* http://ejohn.org/apps/processing.js/examples/topics/reach3.html
+* http://ejohn.org/apps/processing.js/examples/topics/simpleparticlesystem.html
+* http://ejohn.org/apps/processing.js/examples/topics/flocking.html
+* http://ejohn.org/apps/processing.js/examples/topics/softbody.html
+

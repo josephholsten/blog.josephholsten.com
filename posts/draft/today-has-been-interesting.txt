@@ -1,0 +1,7 @@
+Well today has been interesting. I've been trying to move more things to Dropbox. I have my blog moved over as well as photos and I'm updating my todo lists. I do wish I could manage my calendaring and accounting but there are no iPhone clients that like text friendly formats. 
+
+I'm also not especially happy with this app Day One. It does store its entries in Dropbox but not in raw text but in xml. No matter. 
+
+I was thinking that it might be fun to have good services that work better with Dropbox and text formats. I think the most useful form would be blogging, especially as it's generally just text. But if also like to support personal diarying. I'd like to support the entire spectrum of features in Momento. As well I'd like to support the analysis from 750words. 
+
+But I'd really like to support all the apps I use with this sort of storage. 
