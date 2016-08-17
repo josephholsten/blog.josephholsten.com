@@ -1,0 +1,13 @@
+CSS and RSS
+===========
+
+
+Ahh, the old presentation versus content dispute. Do @<font>@ tags belong in the HTML? Does the CSS? Should the CSS be in a seperate file? We've had this discussion before. CSS needs to be seperate from the marked up data (XML, XHTML, RSS, ATOM...)
+
+For the narrow margin of designers who aren't using database babysiting frameworks like rails (my tool of choice), you probably convert from a raw markup to your page and feed. Imagine XSLT'ing your XML storage into XHTML and ATOM. Does CSS belong in the content? Not directly, but it should be available.
+
+Presently, this web site is nothing but static files. No CSS, no RSS, no Atom, no REST. And while I intend to migrate to rails, that doesn't mean I intend to design some beautiful web 2.0 interface to my data. All I want is naked semantic markup. But I'm an odd duck, and you probably shouldn't aspire to mimic my actions.
+
+So what does styling HTML have to do with styling RSS? Abstractly, because they are the same thing. It's data. It's (close to) XML. Okay, but we don't atach CSS to our database tables. So maybe it's that the data will get styled at some point. By having a single point of entry, there is a standard way of seperating pre-styled data from un-styled. Well sure, but most of us don't care about my programming aestetic. Then perhaps it really comes down to the content itself. Most of my feeds deliver HTML. I'll grant that such content isn't valid RSS, but that doesn't stop the people from doing it. And when you have HTML, eventually you'll want to style it. Given the choice between tag soup with integrated styling, and a seperate stylesheet, the latter is best.
+
+So why do we allow styles for feeds? Because people will style, so they should do it the right way. That way is with seperated stylesheets.

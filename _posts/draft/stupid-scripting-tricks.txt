@@ -1,0 +1,111 @@
+<p>Stupid Scripting Tricks</p>
+
+<p>If you&#8217;ve done any administration or development on UNIX, you&#8217;ve heard of the shebang. Almost every script you&#8217;ll encounter with a shebang is a old fashioned bourne shell script. You remember bourne shell, right? This is absolutely the first bit of programming a UNIX user should learn. Just create a file named &#8216;hello.sh&#8217; containing</p>
+
+<pre><code>#!/bin/sh
+# hello.sh: Hello world in bourne shell
+echo Hello, world!
+</code></pre>
+
+<p>Then make the file executable:</p>
+
+<pre><code>% chmod +x hello.sh
+</code></pre>
+
+<p>And now you have a perfectly suitable program:</p>
+
+<pre><code>% ./hello.sh
+Hello, world!
+</code></pre>
+
+<p>So yes, this much is pretty elementary. But it seems that people forget this trick works for any scripting language. Say, TCL:</p>
+
+<pre><code>#!/usr/bin/tclsh
+# hello.tcl: Hello world in TCL
+puts "Hello, world!"
+</code></pre>
+
+<p>Now this assumes that the system has TCL installed system wide. But what if we want the fancy new version that we just installed in /usr/local instead? We could always change the script to use a different interpreter</p>
+
+<pre><code>#!/usr/local/bin/tclsh
+# hello.tcl: Hello world with our local TCL
+puts "Hello, world!"
+</code></pre>
+
+<p>A fine solution when you are sure of the path to the interpreter. But when you want to share that script between systems, things get a bit more difficult. If the system prefers to install things in /opt/csw or /opt/local or /sw, you need to replace these hardcoded paths with something that defers to the system&#8217;s environment.</p>
+
+<p>For scripts intended for regular users, the most reasonable thing is to use the current $PATH for the user. </p>
+
+<pre><code>#!/usr/bin/env tclsh
+</code></pre>
+
+<p>perl hello</p>
+
+<p>python hello</p>
+
+<p>haskell hello</p>
+
+<p>clisp hello</p>
+
+<p>clojure</p>
+
+<p>erlang</p>
+
+<p>io</p>
+
+<p>java?</p>
+
+<p>scala?</p>
+
+<p>prolog</p>
+
+<p>javascript/rhino?</p>
+
+<p>self</p>
+
+<p>ocaml</p>
+
+<p>awk</p>
+
+<p>ruby</p>
+
+<p>php</p>
+
+<p>c
+sql</p>
+
+<p>fortran
+cobol</p>
+
+<p>i386  asm</p>
+
+<p>algol
+pascal
+apl
+pl/i
+simula
+smalltalk/squeek
+ada
+basic
+e
+eiffel
+forth
+limbo
+go
+m4
+postscript
+sql/sqlite
+TeX/LaTeX
+Verilog
+VHDL</p>
+
+<p>ratchet hello</p>
+
+<p>awk hello</p>
+
+<p>ed/patch hello</p>
+
+<pre><code>rakefile
+
+cucumber
+</code></pre>

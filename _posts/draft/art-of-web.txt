@@ -1,0 +1,54 @@
+The Art of the Web
+==================
+
+Joseph A. P. Holsten
+
+The Theory of Modular Design
+---------------------------
+
+Heard of the world wide web? Intrigued? Want in on the fun? I wish I could help you. I used to consider myself a computer geek. But recently I've realized I can't honestly put together a full web site. I don't know what's involved in setting up and maintaining a web server. I started looking for a tutorial. For some reason, these always seem to be mere introductions. They never give tricks, hacks, advice. So I'm going to create it. I've got to learn it anyway, should be fun.
+
+Along the way, I'm going to maintain a site recording my writing process. As I finish elements, notes will go up. If I find cool hacks, tricks, and theories, up will go notes. If someone actually reads this and complains, what goes up will not be notes.
+
+My greatest hope is that I can create a public resource, a standard course in web technology. The idea behind the web is allowing your resources to be on the world's internet. While
+
+
+Hypertext
+---------
+
+
+Stylesheets
+-----------
+
+Modern designers realize the awful history web sites have had. The dated style of design stuffed all the content, formating, and functionality in the same file. That sort of thing is very hard to build and maintain.
+
+Today we have a variety of languages entirely devoted to formatting. SGML users often use DSSL, XML users favor XSL, which offers logical as well as presentational formating, but HTML users tend to prefer the World Wide Web Consortium's Cascading Stylesheets. The reasons are varied, but the strongest is browser support. With useful test suites, and loud support from designers, even Internet Explorer is trying to make good on its past failings of support.
+
+As XHTML gets more use, XSL, its translation abilities, and its formatting objects may well become a competitor for CSS. But presently it receives criticism from all sides. Its greatest asset, for instance, is its ability to finely tune every aspect of presentation. This is seen as a flaw to some, because the necessary syntax and vocabulary to do this is very complex and large compared to CSS. Only time, and the cries of fans or cynics, will tell its future in web design.
+
+
+Cascading Stylesheets
+---------------------
+
+The syntax of Cascading Stylesheets (CSS) is simple. A stylesheet is made of a series of rules. Rules are applied to the items listed at the beginning of the rule, each separated by commas. These items may be element tags, class names, identifier names, or special items as for visited links. Applied to those items are a set of properties enclosed in braces. Each property has a property name followed by a colon, required parameters, and a semicolon.
+
+
+Client Flaws and Hacks
+----------------------
+
+By living in a time beyond the 1980's, touching a computer requires you to know the word "hack." Most technologists realize "Hackers" doesn't reflect what hacking consists of, or is used for. Anyone who has created a hack just did something unconventional, that's all there is to it.
+
+Stylesheet hacks are the same thing. It's a way to get a specific web client to do what you want. When you design for more than one client, things necessarily get hacks to overcome the flaws of those systems. What we're really trying to do is create a core style that works on everything, but what doesn't work, or works differently, gets hacked into submission.
+
+Because every client needs special treatment, the hacks are divided into specific client sections. I try to give the old, present, and new versions of each. The clients flaws are described, and then a hack, based on one of those flaws is given. But remember, whenever possible, it's best to just avoid the system's flaws entirely, and never use hacks. Now on to the fun stuff.
+
+- Javascript
+- Apache
+- PostgreSQL
+- BIND
+- Perl
+- PHP
+- Java Server Pages
+- Active Server Pages
+- Python
+- Ruby on Rails

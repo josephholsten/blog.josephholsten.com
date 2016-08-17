@@ -1,0 +1,9 @@
+It seems that we're already living in the future. Some of us have come to accept that we're living at the edge of the singularity, building existance out before us as we walk along.
+
+But I know that there's more future than our simple iterative improvements. A three pronged future that will change the way we approach reality itself.
+
+Rep: While we've grown to trust credit ratings, ebay reputations and yelp reviews, proper reputations are much more.
+
+contracts: Our system of governance is based on the rule of law, that every member of society agrees to the same contract. The trouble is that all of our contracts depend on that governance system for enforcement, making it very expensive to apply the contract to those who violate it. With self enforcing digital contracts, we can help come to a
+
+Virtuality: the VR we know today is nothing like the one we have to build. it is centralized. focused on simulating physical reality, instead of building tools in the digital reality that could never exist physically. But AR, VWorlds and the web are helping us realize that a hackable reality is so much more useful than the inflexible one we deal with every day. By augmenting today's web style pull model, and feed style pubsub model, with a proximity based push model.
