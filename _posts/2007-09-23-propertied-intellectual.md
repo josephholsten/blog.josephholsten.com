@@ -1,5 +1,8 @@
-Date: 2007-09-23 20:52:00
-Title: Propertied Intellectual?
+---
+layout: post
+date: 2007-09-23 20:52:00
+title: Propertied Intellectual?
+---
 
 [Steamboat Willie opens a gap in the New York Times.][] Or rather,
 Disney's copyright lobby prevents access to New York Times archives.

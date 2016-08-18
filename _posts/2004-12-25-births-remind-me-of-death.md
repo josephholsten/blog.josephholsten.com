@@ -1,5 +1,8 @@
-Date: 2004-12-25 06:41:00
-Title: births remind me of death
+---
+layout: post
+date: 2004-12-25 06:41:00
+title: births remind me of death
+---
 
 well i think this has been neglected for a while. to long a while for my
 tastes. i am internally critical of others who neglect their blogs, yet

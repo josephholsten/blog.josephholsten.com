@@ -1,5 +1,8 @@
-Title: Scripting your Mac: Getting started
-Date: 2014-10-19 14:03:38
+---
+layout: post
+date: 2014-10-19 14:03:38
+title: "Scripting your Mac: Getting started"
+---
 
 I'm switching from [Spectacle](http://spectacleapp.com/) to [Mjolnir](http://mjolnir.io/) mostly as an excuse to learn [Lua](http://www.lua.org/). I've noticed that introductory documentation is a little sparing, so I figure I may as well start writing some.
 
@@ -14,23 +17,21 @@ We'll need to install Mjolnir first, so download the [latest release](https://gi
 
 This example will need a couple libraries to work, so we'll need to install the `mjolnir.hotkey` and `mjolnir.alert` rocks:
 
-<?prettify language=shell?>
-<pre class=prettyprint>
+```.shell
 luarocks install mjolnir.hotkey
 luarocks install mjolnir.alert
-</pre>
+```
 
 Then in your config (usually `~/.mjolnir/init.lua`) file enter:
 
-<?prettify language=lua?>
-<pre class=prettyprint>
+```.lua
 local hotkey = require "mjolnir.hotkey"
 local alert = require "mjolnir.alert"
 
 hotkey.bind({"cmd", "alt", "ctrl"}, "H", function()
   alert.show("Hello World!")
 end)
-</pre>
+```
 
 Reload your config and press `Cmd+Alt+Ctrl+H`. You should see a bubble in the middle of the screen with the text "Hello World!"
 

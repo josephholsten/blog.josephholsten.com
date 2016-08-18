@@ -1,5 +1,8 @@
-Date: 2007-10-01 07:53:00
-Title: Oh how time slips away
+---
+layout: post
+date: 2007-10-01 07:53:00
+title: Oh how time slips away
+---
 
 I've been a user of [Harvest][] for a number of months now. I've gotten
 a few people on it, and enjoy it thoroughly. I've tried Tick, but a time

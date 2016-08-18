@@ -1,5 +1,8 @@
-Date: 2010-02-03 08:52:33
-Title: Instead of Quitting
+---
+layout: post
+date: 2010-02-03 08:52:33
+title: Instead of Quitting
+---
 
 * I read [this](https://web.archive.org/web/20100204101212/http://addictionis.org/).
 * I smoked.

@@ -1,5 +1,8 @@
-Date: 2009-04-11 05:43:19
-Title: Attaching a payment service to your web identity
+---
+layout: post
+date: 2009-04-11 05:43:19
+title: Attaching a payment service to your web identity
+---
 
 Chris [speculated][] some about the way payment processors like PayPal
 can play nice in the digital identity arena. I don't think anyone's

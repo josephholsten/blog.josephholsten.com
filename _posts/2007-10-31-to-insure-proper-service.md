@@ -1,4 +1,8 @@
-Date: 2007-10-31 01:28:00 Title: To Insure Proper Service
+---
+layout: post
+title: To Insure Proper Service
+date: 2007-10-31 01:28:00
+---
 
 Gmail IMAP + Mail.app is nice. Note that you may select the gmail
 *Drafts*, then go to Mailbox → Use This Mailbox For → Drafts, and so for

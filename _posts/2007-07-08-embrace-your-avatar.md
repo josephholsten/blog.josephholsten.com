@@ -1,5 +1,8 @@
-Date: 2007-07-08 09:25:39
-Title: Embrace your avatar
+---
+layout: post
+date: 2007-07-08 09:25:39
+title: Embrace your avatar
+---
 
 I registered for a web app last week. It imported most of my profile
 from OpenID simple registration. But I want an avatar. If you've used
@@ -11,13 +14,12 @@ something.
 
 Here goes:
 
-<?prettify language=xml?>
-<pre class=prettyprint>
+```.xml
 &lt;Service priority="30"&gt;
   &lt;Type&gt;http://josephholsten.com/avatar/1.0&lt;/Type&gt;
   &lt;URI&gt;http://en.gravatar.com/userimage/529392/71f60655008051cefc0474c09dac3289&lt;/URI&gt;
 &lt;/Service&gt;
-</pre>
+```
 
 What is it? A yadis document specifying my avatar URI. Along with it
 might lie LID, OAuth, or OpenID service descriptions. The type element

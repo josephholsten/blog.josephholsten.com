@@ -1,5 +1,8 @@
-Date: 2009-02-24 09:16:01
-Title: Still No Reputation Networks?
+---
+layout: post
+date: 2009-02-24 09:16:01
+title: Still No Reputation Networks?
+---
 
 I really want a decent reputation network. Reputation networks are
 simple concept. Many have tried, but they just haven’t been done well

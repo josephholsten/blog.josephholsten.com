@@ -1,5 +1,8 @@
-Date: 2007-09-23 20:52:00
-Title: Live ID Isn't Auth[nz]
+---
+layout: post
+date: 2007-09-23 20:52:00
+title: Live ID Isn't Auth[nz]
+---
 
 [Dare Obasanjo][] wrote about how [It isn’t OpenID vs. Windows Live
 ID][]

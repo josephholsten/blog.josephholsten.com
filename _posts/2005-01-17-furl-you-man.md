@@ -1,5 +1,8 @@
-Date: 2005-01-17 08:31:00
-Title: furl you man!
+---
+layout: post
+date: 2005-01-17 08:31:00
+title: furl you man!
+---
 
 oh hey, i forgot to mention that i have stopped using furl. there is
 nothing wrong with furl, but i found a complete replacement which has

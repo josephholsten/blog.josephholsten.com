@@ -1,5 +1,8 @@
-Date: 2009-01-25 10:47:10
-Title: We Wear the Mask
+---
+layout: post
+date: 2009-01-25 10:47:10
+title: We Wear the Mask
+---
 
 <blockquote class="verse">
 <pre>We wear the mask that grins and lies,

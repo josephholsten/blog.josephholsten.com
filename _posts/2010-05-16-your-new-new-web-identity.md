@@ -1,5 +1,8 @@
-Date: 2010-05-16 05:33:10
-Title: Your New New Web Identity
+---
+layout: post
+date: 2010-05-16 05:33:10
+title: Your New New Web Identity
+---
 
 David Recordon just let us know about a little strawman proposal he's
 calling [OpenID Connect][]. It's not exactly perfect, but it's a good
@@ -51,8 +54,7 @@ can already do this stuff by just pointing around. But what's missing is
 a way to inline the data so clients don't have to keep making requests
 to get standard data. I imagine it could be as simple as:
 
-<?prettify language="javascript"?>
-<pre class="prettyprint">
+```.javascript
 {"user_id":"https://graph.fb.me/24400320",
  "url":"http://fb.me/davidrecordon",
  "link": [
@@ -77,7 +79,7 @@ to get standard data. I imagine it could be as simple as:
     "type": "application/rdf+n3",
     "href":"http://foaf.fb.me/daveman692",
     "entity": "You get the idea"}]}
-</pre>
+```
 
 Specifically, this would just be an OAuth API that provides X/JRD data
 to authorized clients. The only extension is to add an `entity` element

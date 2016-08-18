@@ -1,5 +1,8 @@
-Date: 2007-09-20 01:10:00
-Title: Behold that bester of swords
+---
+layout: post
+date: 2007-09-20 01:10:00
+title: Behold that bester of swords
+---
 
 See here: [Glamour to the eyes of pen geeks][] c/o [Gruber][]
 

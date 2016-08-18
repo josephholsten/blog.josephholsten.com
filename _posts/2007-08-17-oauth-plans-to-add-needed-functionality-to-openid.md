@@ -1,5 +1,8 @@
-Date: 2007-08-17 15:26:00
-Title: Oauth plans to add needed functionality to OpenID
+---
+layout: post
+date: 2007-08-17 15:26:00
+title: Oauth plans to add needed functionality to OpenID
+---
 
 <img src="http://assets.josephholsten.com/images/mah-protected-resources.jpg"/>
 

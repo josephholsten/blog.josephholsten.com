@@ -1,5 +1,8 @@
-Date: 2009-11-22 12:17:18
-Title: Damned Flickr
+---
+layout: post
+date: 2009-11-22 12:17:18
+title: Damned Flickr
+---
 
 It must be very difficult to be a [Daring Fireball][]. Not only must he
 suffer the indignity of being the world's foremost Apple fanboy and a

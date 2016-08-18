@@ -1,5 +1,8 @@
-Date: 2009-04-11 02:07:03\
-Title: Next and previous page bookmarklets using prototype
+---
+layout: post
+date: 2009-04-11 02:07:03
+title: Next and previous page bookmarklets using prototype
+---
 
 I'm working on a few tools to do semantic web stuff in Safari. Since I'm
 just at the prototype phase, I'm handling this stuff with javascript. I
@@ -17,8 +20,7 @@ doesn't everyone <acronym title="Don't Repeat Yourself">DRY</acronym>
 out their code to the point that Huffman coding fails to improve
 anything?
 
-<?prettify language=javascript?>
-<pre class=prettyprint>
+```.javascript
 (function() {
   var d = document;
   try { Prototype.Version }
@@ -29,7 +31,7 @@ anything?
     d.getElementsByTagName('head')[0].appendChild(s);
   }
 })();void(0)
-</pre>
+```
 
 To install this
 <a href="javascript:(function(){try{Prototype.Version}catch(e){var%20s=document.createElement('script');s.type='text/javascript';s.src='http://scripts.example/prototype.js';document.getElementsByTagName('head')[0].appendChild(s);}})();void(0)">bookmarklet</a>,

@@ -1,15 +1,17 @@
-Title: Deploying with Bundler and Capistrano
-Date: 2010-09-03 10:05:09
+---
+layout: post
+title: Deploying with Bundler and Capistrano
+date: 2010-09-03 10:05:09
+---
 
 When I stumbled across Richard Huang's [DRY bundler in capistrano][], I
 got excited thinking I'd learn even more about bundler's internals and
 maybe even a few more tricks with using bundler and capistrano together.
 Unfortunately, all I really got was to use this in my `deploy.rb`:
 
-<!--?prettify lang=ruby?-->
-<pre class="prettyprint">
+```.ruby
 require 'bundler/capistrano'
-</pre>
+```
 
 Now that will probably be enough for most people. But if you're already
 using bundler 1.0 with capistrano, you probably aren't most people.
@@ -18,8 +20,7 @@ The bundler team has put a lot of work into documenting every little
 part of the project, so after we've required bundler's capistrato
 recipe, let's grab the task explanation:
 
-<!--?prettify lang=shell?-->
-<pre class="prettyprint">
+```.shell
 % cap --explain bundle:install
 ------------------------------------------------------------
 cap bundle:install
@@ -34,18 +35,17 @@ below.
   set :bundle_dir,          fetch(:shared_path)+'/bundle'
   set :bundle_flags,        '--deployment --quiet'
   set :bundle_without,      [:development, :test]
-</pre>
+```
 
 You're probably going to want to start playing around with bundler 1.0
 on your dev machine before you deploy it on production. Since bundler
 0.9 doesn't support all the useful flags in 1.0, so we need to empty a
 couple of these default settings to make it work:
 
-<!--?prettify lang=ruby?-->
-<pre class="prettyprint">
+```.ruby
 set :bundle_dir, ''
 set :bundle_flags, ''
-</pre>
+```
 
 Now you can have 1.0 on your dev machines and test that this deploys
 properly.
@@ -54,18 +54,16 @@ If you're like me, you forgot that need a few gems in your development
 group on your staging machine. So just set the groups you can live
 without:
 
-<!--?prettify lang=ruby?-->
-<pre class="prettyprint">
+```.ruby
 set :bundle_without, [:test]
-</pre>
+```
 
 Of course, our production environment doesn't actually need anything in
 the development group, and we use separate `production` and `staging`
 cap tasks to load settings for our different environments. So we just
 modify those to have the right bundler groups:
 
-<!--?prettify lang=ruby?-->
-<pre class="prettyprint">
+```.ruby
 task :staging do
   set :bundle_without, [:test]
   # other staging specific settings, like
@@ -78,7 +76,7 @@ task :production do
   # other production specific settings, like
   # set :rails_env, 'production'
 end
-</pre>
+```
 
 Once you've got everything tailored and working, you can update bundler
 on your boxes and restart the app servers. You could leave the

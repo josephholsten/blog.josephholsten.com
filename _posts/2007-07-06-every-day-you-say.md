@@ -1,5 +1,8 @@
-Date: 2007-07-06 16:44:00
-Title: Every Day, You Say?
+---
+layout: post
+date: 2007-07-06 16:44:00
+title: Every Day, You Say?
+---
 
 I promise that for the next month, I will not have an unusual number of
 rhyming titles. But titles there will be!

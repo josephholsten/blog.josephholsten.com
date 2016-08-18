@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Scripting Mjolnir: Quick Config Reloading"
 date:   2014-10-22 12:47:25
-categories: jekyll update
+title:  "Scripting Mjolnir: Quick Config Reloading"
 ---
 
 
@@ -16,25 +15,23 @@ Looking through the Mjolnir docs, looks like `mjolnir.reload()` is the function 
 
 So let's try the simplest thing that could possibly work.
 
-<?prettify language=lua?>
-<pre class=prettyprint>
+```.lua
 hotkey.bind({"cmd", "alt", "ctrl"}, "R", function()
   mjolnir.reload()
 end)
-</pre>
+```
 
 Then for the last time, let's reload the config with your mouse. Now you can just press `Cmd+Alt+Ctrl+R` any time you make a change.
 
 Of course, it feels odd just having this happen in the background without any indicator of success. So let's add a couple alerts to show what's going on:
 
-<?prettify language=lua?>
-<pre class=prettyprint>
+```.lua
 hotkey.bind({"cmd", "alt", "ctrl"}, "R", function()
   mjolnir.alert("reloading config")
   mjolnir.reload()
   mjolnir.alert("reloaded config")
 end)
-</pre>
+```
 
 Then let's reload the config once to get this updated hotkey loaded. Now reload again using the hotkey.
 
@@ -46,9 +43,8 @@ So how do we get a notification? Well lua is a real scripting language, anything
 
 So let's add the following to the top of the config:
 
-<?prettify language=lua?>
-<pre class=prettyprint>
+```.lua
 mjolnir.alert("reloaded config")
-</pre>
+```
 
 Now every time Mjolnir loads the config, it'll show this alert. Just reload (either with the hotkey or the menu item) and you should see that notification.

@@ -1,5 +1,8 @@
-Date: 2009-02-04 10:22:51
-Title: OAuth for the IRS
+---
+layout: post
+date: 2009-02-04 10:22:51
+title: OAuth for the IRS
+---
 
 I am tired of giving out my social security number. If you have looked
 into digital identity technology recently, you have probably heard of

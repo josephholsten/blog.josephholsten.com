@@ -1,5 +1,8 @@
-Date: 2007-07-10 22:18:00
-Title: Selenium Testing
+---
+layout: post
+date: 2007-07-10 22:18:00
+title: Selenium Testing
+---
 
 If you have ever had to do QA on your product, you can relate to the
 nagging sense of dread whenever a manager walks past your door those

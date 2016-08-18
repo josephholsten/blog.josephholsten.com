@@ -1,5 +1,8 @@
-Date: 2007-07-18 20:14:00
-Title: NVarchar Oddness
+---
+layout: post
+date: 2007-07-18 20:14:00
+title: NVarchar Oddness
+---
 
 I was wondering what the difference between varchar and nvarchar sql
 types, when I ran across a [brief by guyS][]. I was slightly confused by

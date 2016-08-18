@@ -1,5 +1,8 @@
-Date: 2009-11-29 16:02:50
-Title: Podcast Patent: Busted
+---
+layout: post
+date: 2009-11-29 16:02:50
+title: "Podcast Patent: Busted"
+---
 
 The [EFF][] is starting up a new [patent-busting project][] aimed at
 [VoloMedia][]’s [podcasting patent][]. Even if you're a fan of software

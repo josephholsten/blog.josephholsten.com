@@ -1,5 +1,8 @@
-Date: 2007-07-09 03:46:00
-Title: Embrace your identity
+---
+layout: post
+date: 2007-07-09 03:46:00
+title: Embrace your identity
+---
 
 > If anyone knows you by a web address, than you've got a web identity.
 > And all around today's web we can find interesting distributed

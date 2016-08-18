@@ -1,5 +1,8 @@
-Date: 2010-03-16 07:37:25
-Title: Unsolved Problems
+---
+layout: post
+date: 2010-03-16 07:37:25
+title: Unsolved Problems
+---
 
 This week I've had a bunch of problems I haven't finished solving. So
 instead of writing a handful of walkthroughs, I thought I'd write about

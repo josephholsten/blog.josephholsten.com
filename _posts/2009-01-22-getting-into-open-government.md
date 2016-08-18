@@ -1,5 +1,8 @@
-Date: 2009-01-22 08:12:17
-Title: Getting into Open Government
+---
+layout: post
+date: 2009-01-22 08:12:17
+title: Getting into Open Government
+---
 
 Obama has written [two memoranda][] making it clear he intends to
 encourage an open environment so the public can access the data it pays

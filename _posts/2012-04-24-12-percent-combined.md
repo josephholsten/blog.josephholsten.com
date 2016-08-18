@@ -1,5 +1,8 @@
-Title: 12% combined
-Date: 2012-04-24 07:30:40
+---
+layout: post
+title: 12% combined
+date: 2012-04-24 07:30:40
+---
 
 > The USDA standards for processed, packaged “Salisbury steak” require a
 > minimum content of 65% meat, of which up to 25% can be pork, except if

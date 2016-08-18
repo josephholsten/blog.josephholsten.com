@@ -1,5 +1,8 @@
-Date: 2007-07-26 00:14:00
-Title: Broken Windows
+---
+layout: post
+date: 2007-07-26 00:14:00
+title: Broken Windows
+---
 
 Check out some pop economics and learn about [broken window theory][].
 Then check out [Michael Bates'][] comments on [immigration][] in Tulsa.

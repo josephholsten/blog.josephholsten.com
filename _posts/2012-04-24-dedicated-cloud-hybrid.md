@@ -1,5 +1,8 @@
-Title: Dedicated + Cloud = Hybrid
-Date: 2012-04-24 16:35:49
+---
+layout: post
+title: Dedicated + Cloud = Hybrid
+date: 2012-04-24 16:35:49
+---
 
 > Combined with storing all data and indexes in RAM, we get an average
 > MongoDB query speed of 0.35ms at around 1000 writes (mostly updates)

@@ -1,5 +1,8 @@
-Date: 2007-09-23 20:52:00
-Title: Fat client leacher
+---
+layout: post
+date: 2007-09-23 20:52:00
+title: Fat client leacher
+---
 
 Would it surprise you that I use fat clients for most internet stuff?
 That's right, most of the apps I use are for cocoa or win-forms. The

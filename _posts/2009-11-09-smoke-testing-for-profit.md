@@ -1,5 +1,8 @@
-Date: 2009-11-09 07:52:39
-Title: Smoke Testing for Profit
+---
+layout: post
+date: 2009-11-09 07:52:39
+title: Smoke Testing for Profit
+---
 
 A coworker of mine wants to stub out our access to external services so
 our tests work faster and better. Trouble is, he seemed to be pointing
