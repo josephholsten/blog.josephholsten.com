@@ -20,7 +20,7 @@ doesn't everyone <acronym title="Don't Repeat Yourself">DRY</acronym>
 out their code to the point that Huffman coding fails to improve
 anything?
 
-```.javascript
+```javascript
 (function() {
   var d = document;
   try { Prototype.Version }

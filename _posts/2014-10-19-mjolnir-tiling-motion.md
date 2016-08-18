@@ -14,7 +14,7 @@ To do this, we'll need to access the screen dimensions so we can appropriately s
 
 Of course, we'll need to make sure the `mjolnir.screen` rock is installed along with the ones from last time:
 
-```.shell
+```shell
 luarocks install mjolnir.hotkey
 luarocks install mjolnir.window
 luarocks install mjolnir.screen
@@ -22,7 +22,7 @@ luarocks install mjolnir.screen
 
 And we can make sure the window's dimensions fill the screen by setting the window's frame to have the same `x`, `y`, `w` & `h` as the screen's frame:
 
-```.lua
+```lua
 local hotkey = require "mjolnir.hotkey"
 local window = require "mjolnir.window"
 local screen = require "mjolnir.screen"
@@ -45,7 +45,7 @@ As always, reload the config. Then try it out by pressing `Cmd+Alt+Ctrl+M` while
 
 Next, let's make windows snap to the left side of the screen. This should be relatively simple, we just need to make sure we have the width is half that of the screen, and otherwise should be identical to full screen.
 
-```.lua
+```lua
 local hotkey = require "mjolnir.hotkey"
 local window = require "mjolnir.window"
 local screen = require "mjolnir.screen"
@@ -66,7 +66,7 @@ end)
 
 And then we just need to flesh out the rest of the sides and corners to get:
 
-```.lua
+```lua
 local hotkey = require "mjolnir.hotkey"
 local window = require "mjolnir.window"
 local screen = require "mjolnir.screen"

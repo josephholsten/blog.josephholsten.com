@@ -15,14 +15,14 @@ We'll also need the `mjolnir.window` rock to give us access to the windows we wa
 
 So let's begin by installing our dependencies:
 
-```.shell
+```shell
 luarocks install mjolnir.hotkey
 luarocks install mjolnir.alert
 ```
 
 Let's begin with a tiny use case, just moving a window a bit to the left. Users of `vi` and `nethack` know that the only appropriate key bindings for this must use the `H` key. I'll be assuming that you also don't mind a bit of key mashing, so I'll use `Cmd+Alt+Ctrl` as our mode. Here goes:
 
-```.lua
+```lua
 local hotkey = require "mjolnir.hotkey"
 local window = require "mjolnir.window"
 
@@ -57,7 +57,7 @@ So let's extend this control to the full `nethack` motion:
 </tr>
 </table>
 
-```.lua
+```lua
 local hotkey = require "mjolnir.hotkey"
 local window = require "mjolnir.window"
 

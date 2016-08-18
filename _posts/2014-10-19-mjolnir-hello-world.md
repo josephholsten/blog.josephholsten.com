@@ -17,14 +17,14 @@ We'll need to install Mjolnir first, so download the [latest release](https://gi
 
 This example will need a couple libraries to work, so we'll need to install the `mjolnir.hotkey` and `mjolnir.alert` rocks:
 
-```.shell
+```shell
 luarocks install mjolnir.hotkey
 luarocks install mjolnir.alert
 ```
 
 Then in your config (usually `~/.mjolnir/init.lua`) file enter:
 
-```.lua
+```lua
 local hotkey = require "mjolnir.hotkey"
 local alert = require "mjolnir.alert"
 

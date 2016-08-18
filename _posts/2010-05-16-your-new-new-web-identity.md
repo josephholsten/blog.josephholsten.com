@@ -54,7 +54,7 @@ can already do this stuff by just pointing around. But what's missing is
 a way to inline the data so clients don't have to keep making requests
 to get standard data. I imagine it could be as simple as:
 
-```.javascript
+```javascript
 {"user_id":"https://graph.fb.me/24400320",
  "url":"http://fb.me/davidrecordon",
  "link": [

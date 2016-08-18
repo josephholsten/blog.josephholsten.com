@@ -9,7 +9,7 @@ got excited thinking I'd learn even more about bundler's internals and
 maybe even a few more tricks with using bundler and capistrano together.
 Unfortunately, all I really got was to use this in my `deploy.rb`:
 
-```.ruby
+```ruby
 require 'bundler/capistrano'
 ```
 
@@ -20,7 +20,7 @@ The bundler team has put a lot of work into documenting every little
 part of the project, so after we've required bundler's capistrato
 recipe, let's grab the task explanation:
 
-```.shell
+```shell
 % cap --explain bundle:install
 ------------------------------------------------------------
 cap bundle:install
@@ -42,7 +42,7 @@ on your dev machine before you deploy it on production. Since bundler
 0.9 doesn't support all the useful flags in 1.0, so we need to empty a
 couple of these default settings to make it work:
 
-```.ruby
+```ruby
 set :bundle_dir, ''
 set :bundle_flags, ''
 ```
@@ -54,7 +54,7 @@ If you're like me, you forgot that need a few gems in your development
 group on your staging machine. So just set the groups you can live
 without:
 
-```.ruby
+```ruby
 set :bundle_without, [:test]
 ```
 
@@ -63,7 +63,7 @@ the development group, and we use separate `production` and `staging`
 cap tasks to load settings for our different environments. So we just
 modify those to have the right bundler groups:
 
-```.ruby
+```ruby
 task :staging do
   set :bundle_without, [:test]
   # other staging specific settings, like

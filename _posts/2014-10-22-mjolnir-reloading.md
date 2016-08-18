@@ -15,7 +15,7 @@ Looking through the Mjolnir docs, looks like `mjolnir.reload()` is the function 
 
 So let's try the simplest thing that could possibly work.
 
-```.lua
+```lua
 hotkey.bind({"cmd", "alt", "ctrl"}, "R", function()
   mjolnir.reload()
 end)
@@ -25,7 +25,7 @@ Then for the last time, let's reload the config with your mouse. Now you can jus
 
 Of course, it feels odd just having this happen in the background without any indicator of success. So let's add a couple alerts to show what's going on:
 
-```.lua
+```lua
 hotkey.bind({"cmd", "alt", "ctrl"}, "R", function()
   mjolnir.alert("reloading config")
   mjolnir.reload()
@@ -43,7 +43,7 @@ So how do we get a notification? Well lua is a real scripting language, anything
 
 So let's add the following to the top of the config:
 
-```.lua
+```lua
 mjolnir.alert("reloaded config")
 ```
 

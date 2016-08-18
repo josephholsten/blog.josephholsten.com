@@ -14,7 +14,7 @@ something.
 
 Here goes:
 
-```.xml
+```xml
 &lt;Service priority="30"&gt;
   &lt;Type&gt;http://josephholsten.com/avatar/1.0&lt;/Type&gt;
   &lt;URI&gt;http://en.gravatar.com/userimage/529392/71f60655008051cefc0474c09dac3289&lt;/URI&gt;

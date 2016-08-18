@@ -10,7 +10,7 @@ Trouble is, I don't use those anymore. It's a real hassle to negotiate Prototype
 
 What we want is very simple: elements with a `rel` value of `prev` or `next`. You find those easily with the CSS selectors `[rel~=prev]` or `[rel~=next]`. We need to get the link those elements are pointing to, so we just pull that from the `href` attribute. Finally, we tell the browser to update the document location with that URI. Like so:
 
-```.javascript
+```javascript
 location = document.querySelector('[rel~=prev]').getAttribute('href');
 ```
 
