@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=en-US>
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
@@ -7,8 +7,15 @@
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/libre-caslon-display" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/libre-caslon-text" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/overpass" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/source-sans-pro" type="text/css"/>
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/source-code-pro" type="text/css"/>
+
     <link href="/assets/css/style.css" rel="stylesheet" />
     <link href="/assets/css/colors-light.css" rel="stylesheet" />
+    <link href="/assets/css/code-colors-dark.css" rel="stylesheet" />
 
     <script type="text/javascript">
 !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
@@ -29,6 +36,7 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/archives">Archive</a></li>
+                    <li><a href="/colophon">Colophon</a></li>
                     <li><a href="/feed.xml">Feed</a></li>
                 </ul>
             </nav>
@@ -39,7 +47,7 @@
     </div>
 
     <footer id="footer">
-        <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
+        <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author }}.</p>
     </footer>
 </body>
 </html>

@@ -15,10 +15,10 @@ something.
 Here goes:
 
 ```xml
-&lt;Service priority="30"&gt;
-  &lt;Type&gt;http://josephholsten.com/avatar/1.0&lt;/Type&gt;
-  &lt;URI&gt;http://en.gravatar.com/userimage/529392/71f60655008051cefc0474c09dac3289&lt;/URI&gt;
-&lt;/Service&gt;
+<Service priority="30">
+  <Type>http://josephholsten.com/avatar/1.0</Type>
+  <URI>http://en.gravatar.com/userimage/529392/71f60655008051cefc0474c09dac3289</URI>
+</Service>
 ```
 
 What is it? A yadis document specifying my avatar URI. Along with it
