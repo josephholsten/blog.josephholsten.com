@@ -32,3 +32,5 @@ But today I discovered concrete reproduction steps:
 I've verified that this works even with a fresh user account.
 
 But I wonder, can anyone else reproduce this bug?
+
+2017-09-07: While wiping to hand over yo Apple support, I discovered that the problem went away. Fortunately, we can still reproduce by running `curl bit.ly/agshoes | sh` (even without the dropbox setup and `agshoes present` steps). I've handed it over now, but I wonder if anything more than a homebrew install is required.
