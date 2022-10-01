@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-11-09 07:52:39
+date: 2009-11-09T07:52:39
 title: Smoke Testing for Profit
 ---
 

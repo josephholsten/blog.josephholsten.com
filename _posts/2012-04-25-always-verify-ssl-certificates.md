@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Always verify SSL certificates
-date: 2012-04-25 20:10
+date: 2012-04-25T20:10
 ---
 
 > All you need to do is require this gem and you’ll get good security by

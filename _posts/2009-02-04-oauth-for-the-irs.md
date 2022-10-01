@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-02-04 10:22:51
+date: 2009-02-04T10:22:51
 title: OAuth for the IRS
 ---
 

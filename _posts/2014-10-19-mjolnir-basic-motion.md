@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2014-10-19 14:33:22
+date: 2014-10-19T14:33:22
 title: "Scripting your Mac: Basic Motion"
 ---
 

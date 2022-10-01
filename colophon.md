@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2016-08-19 06:04:55
+date: 2016-08-19T06:04:55
 title: Colophon
 ---
 

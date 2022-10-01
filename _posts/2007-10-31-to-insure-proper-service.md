@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To Insure Proper Service
-date: 2007-10-31 01:28:00
+date: 2007-10-31T01:28:00
 ---
 
 Gmail IMAP + Mail.app is nice. Note that you may select the gmail

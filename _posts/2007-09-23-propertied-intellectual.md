@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-09-23 20:52:00
+date: 2007-09-23T20:52:00
 title: Propertied Intellectual?
 ---
 

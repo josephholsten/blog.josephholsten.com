@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-04-11 05:43:19
+date: 2009-04-11T05:43:19
 title: Attaching a payment service to your web identity
 ---
 

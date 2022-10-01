@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2010-05-16 05:33:10
+date: 2010-05-16T05:33:10
 title: Your New New Web Identity
 ---
 

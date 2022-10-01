@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-08-17 15:26:00
+date: 2007-08-17T15:26:00
 title: Oauth plans to add needed functionality to OpenID
 ---
 

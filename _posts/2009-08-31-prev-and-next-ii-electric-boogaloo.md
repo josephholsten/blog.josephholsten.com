@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-08-31 17:23:11
+date: 2009-08-31T17:23:11
 title: "Prev and Next II: Electric Boogaloo"
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2004-12-25 06:41:00
+date: 2004-12-25T06:41:00
 title: births remind me of death
 ---
 

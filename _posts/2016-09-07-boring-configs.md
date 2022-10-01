@@ -1,5 +1,5 @@
 ---
-date: '2016-09-07 22:51:00'
+date: 2016-09-07T22:51:00
 layout: post
 title: The Most Boring Configs
 ---

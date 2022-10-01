@@ -1,0 +1,53 @@
+---
+layout: default
+title: Libera Ideoj
+pagination:
+  data: collections.posts
+  size: 10
+  reverse: true
+permalink: "/{% if pagination.pageNumber > 0 %}page{{ pagination.pageNumber | plus: 1 }}/{% endif %}"
+---
+
+{% for post in pagination.items %}
+
+	<article class="post">
+
+		{% if post.data.external-url %}
+			<h1>
+				<a href="{{ post.external-url }}">{{ post.data.title }}</a>
+				<a class="anchor" href="{{ post.url }}"><i class="icon-anchor"></i></a>
+			</h1>
+		{% else %}
+			<h1><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
+		{% endif %}
+
+		<div class="post-content">{{ post.templateContent }}</div>
+
+	</article>
+
+{% endfor %}
+
+
+{% if pagination.pages.size > 1 %}
+	<div class="postnavigation">
+
+		{% if pagination.href.previous %}
+			{% if pagination.pageNumber == 1 %}
+				<a class="prev left" href="/">&larr; Newer</a>
+			{% else %}
+				<a class="prev left" href="{{pagination.href.previous}}/">&larr; Newer</a>
+			{% endif %}
+		{% else %}
+			<span class="nope left">&larr; Newer</span>
+		{% endif %}
+
+		<span class="pages">Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.size }}</span>
+
+		{% if pagination.href.next %}
+			<a class="next right" href="{{pagination.href.next}}/">Older &rarr;</a>
+		{% else %}
+			<span class="nope right">Older &rarr;</span>
+		{% endif %}
+
+	</div>
+{% endif %}
