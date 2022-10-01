@@ -12,7 +12,7 @@
     <link href="/stylesheets/colors-light.css" rel="stylesheet" />
     <link href="/stylesheets/code-colors-dark.css" rel="stylesheet" />
 
-    {% include segment-io-prime.html %}
+    {% include 'segment-io-prime.html' %}
   </head>
 
   <body>
@@ -31,8 +31,9 @@
           </ul>
         </nav>
       </div>
-
-      <div id="content">{{ content }} {% include segment-io-ultime.html %}</div>
+      <div id="content">
+        {{ content }} {% include 'segment-io-ultime.html' %}
+      </div>
     </div>
 
     <footer id="footer">
