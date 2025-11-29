@@ -30,7 +30,7 @@ table {
 
 /*** Basics ***/
 body {
-    font-family: 'SourceSansProRegular', serif;
+    font-family: 'Source Sans 3', sans-serif;
     font-size: 13px;
     line-height: 1.7;
 }
@@ -55,7 +55,7 @@ sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
 
 code {
-    font-family: 'SourceCodeRegular', monospace;
+    font-family: 'Source Code Pro', monospace;
 }
 
 blockquote {
@@ -74,7 +74,7 @@ acronym, abbr {
 }
 
 header, h1, h2, h3, nav {
-    font-family: 'OverpassRegular', sans-serif;
+    font-family: 'Overpass', sans-serif;
     font-variant-caps: small-caps;
 }
 
@@ -157,7 +157,7 @@ h3 {
 
 #sidebar a {
     border: none;
-    font-family: "Source Sans", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
     font-size: 1.2em;
     padding: 2px 4px;
 }
