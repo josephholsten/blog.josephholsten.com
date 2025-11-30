@@ -11,3 +11,6 @@ theme: minima
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 paginate: 10
+
+sass:
+  sass_dir: stylesheets
