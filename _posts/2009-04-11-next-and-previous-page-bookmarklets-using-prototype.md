@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-04-11 02:07:03
+date: 2009-04-11T02:07:03
 title: Next and previous page bookmarklets using prototype
 ---
 

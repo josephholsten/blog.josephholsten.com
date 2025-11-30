@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-07-06 16:44:00
+date: 2007-07-06T16:44:00
 title: Every Day, You Say?
 ---
 

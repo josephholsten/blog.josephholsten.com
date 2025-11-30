@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-07-10 22:18:00
+date: 2007-07-10T22:18:00
 title: Selenium Testing
 ---
 

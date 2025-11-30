@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dedicated + Cloud = Hybrid
-date: 2012-04-24 16:35:49
+date: 2012-04-24T16:35:49
 ---
 
 > Combined with storing all data and indexes in RAM, we get an average

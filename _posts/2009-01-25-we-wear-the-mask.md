@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-01-25 10:47:10
+date: 2009-01-25T10:47:10
 title: We Wear the Mask
 ---
 

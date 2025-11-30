@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-07-08 09:25:39
+date: 2007-07-08T09:25:39
 title: Embrace your avatar
 ---
 

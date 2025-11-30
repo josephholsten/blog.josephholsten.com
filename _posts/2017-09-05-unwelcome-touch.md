@@ -1,7 +1,7 @@
 ---
 layout: post
 title: macOS System Unresponsive after Volume + TouchID Chord
-date: 2017-09-05 13:11
+date: 2017-09-05T13:11
 ---
 I've been fighting a problem with my Macbook Pro with Touch Bar since
 the first week I had it.

@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-10-01 07:53:00
+date: 2007-10-01T07:53:00
 title: Oh how time slips away
 ---
 

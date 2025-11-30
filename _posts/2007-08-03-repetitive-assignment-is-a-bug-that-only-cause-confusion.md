@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-08-03 18:45:00
+date: 2007-08-03T18:45:00
 title: Repetitive assignment is a bug that only cause confusion
 ---
 

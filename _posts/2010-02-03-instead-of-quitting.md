@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2010-02-03 08:52:33
+date: 2010-02-03T08:52:33
 title: Instead of Quitting
 ---
 

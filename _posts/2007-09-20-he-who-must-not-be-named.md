@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-09-20 01:10:00
+date: 2007-09-20T01:10:00
 title: He-who-must-not-be-named
 ---
 

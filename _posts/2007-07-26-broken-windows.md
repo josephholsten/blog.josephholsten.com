@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-07-26 00:14:00
+date: 2007-07-26T00:14:00
 title: Broken Windows
 ---
 

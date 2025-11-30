@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2014-10-19 14:03:38
+date: 2014-10-19T14:03:38
 title: "Scripting your Mac: Getting started"
 ---
 

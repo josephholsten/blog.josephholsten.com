@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-07-09 03:46:00
+date: 2007-07-09T03:46:00
 title: Embrace your identity
 ---
 

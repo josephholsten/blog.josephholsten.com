@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2010-04-21 22:08:02
+date: 2010-04-21T22:08:02
 title: "Walgreens:"
 ---
 

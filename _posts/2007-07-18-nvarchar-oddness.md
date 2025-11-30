@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2007-07-18 20:14:00
+date: 2007-07-18T20:14:00
 title: NVarchar Oddness
 ---
 

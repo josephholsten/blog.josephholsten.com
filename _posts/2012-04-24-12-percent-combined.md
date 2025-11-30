@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 12% combined
-date: 2012-04-24 07:30:40
+date: 2012-04-24T07:30:40
 ---
 
 > The USDA standards for processed, packaged “Salisbury steak” require a

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Most Wonderful Way to Augment Reality
-date: 2011-03-24 14:04:27
+date: 2011-03-24T14:04:27
 ---
 
 I've been working at building augmented reality tech for a while. It's so math heavy that getting the minimum viable product out the door is excruciating. So the project has stalled.

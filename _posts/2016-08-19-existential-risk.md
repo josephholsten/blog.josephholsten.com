@@ -1,5 +1,5 @@
 ---
-date: '2016-08-19 09:21:10'
+date: 2016-08-19T09:21:10
 layout: post
 title: Existential Risk Taxonomy
 ---

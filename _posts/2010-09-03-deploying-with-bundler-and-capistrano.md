@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploying with Bundler and Capistrano
-date: 2010-09-03 10:05:09
+date: 2010-09-03T10:05:09
 ---
 
 When I stumbled across Richard Huang's [DRY bundler in capistrano][], I

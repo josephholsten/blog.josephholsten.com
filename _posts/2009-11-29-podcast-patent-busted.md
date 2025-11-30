@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-11-29 16:02:50
+date: 2009-11-29T16:02:50
 title: "Podcast Patent: Busted"
 ---
 

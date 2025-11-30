@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2014-10-19 16:27:17
+date: 2014-10-19T16:27:17
 title: "Scripting your Mac: Tiling Motion"
 ---
 

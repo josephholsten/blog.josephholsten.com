@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-11-22 12:17:18
+date: 2009-11-22T12:17:18
 title: Damned Flickr
 ---
 

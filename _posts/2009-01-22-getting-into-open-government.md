@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-01-22 08:12:17
+date: 2009-01-22T08:12:17
 title: Getting into Open Government
 ---
 

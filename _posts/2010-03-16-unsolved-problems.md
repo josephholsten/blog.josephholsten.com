@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2010-03-16 07:37:25
+date: 2010-03-16T07:37:25
 title: Unsolved Problems
 ---
 

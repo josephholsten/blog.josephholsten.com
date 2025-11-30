@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2005-01-17 08:31:00
+date: 2005-01-17T08:31:00
 title: furl you man!
 ---
 

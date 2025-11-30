@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Smalltalk in Smalltalk in Javascript
-date: 2012-05-03 07:28
+date: 2012-05-03T07:28
 ---
 
 > Amber is written in itself, including the parser and compiler, and

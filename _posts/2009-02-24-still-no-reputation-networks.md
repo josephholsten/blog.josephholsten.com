@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2009-02-24 09:16:01
+date: 2009-02-24T09:16:01
 title: Still No Reputation Networks?
 ---
 
