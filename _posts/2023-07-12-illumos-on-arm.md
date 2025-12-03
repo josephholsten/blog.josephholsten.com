@@ -3,7 +3,8 @@ layout: post
 title: "Illumos on ARM: Commence"
 date: 2023-07-12T09:30:00
 ---
-Something has come over me, and I've decided that I should get back into operating systems. In high school, this was all I wanted to work on: particularly building the systems to make people's lives easier.  But reasons brought me into system administration, and there has never been an absence of work of be done. 
+
+Something has come over me, and I've decided that I should get back into operating systems. In high school, this was all I wanted to work on: particularly building the systems to make people's lives easier. But reasons brought me into system administration, and there has never been an absence of work of be done.
 
 Since then, the hardware platforms for computers collapsed, with Apple and Sun both appearing to move to the x86 lineage of ISAs. Commercially supported Unix workstations went away, leaving only Linux and macOS.
 
