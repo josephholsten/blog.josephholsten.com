@@ -1,46 +1,44 @@
 <!doctype html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8" />
-        <title>{{ title }}</title>
-        <meta name="viewport" content="width=device-width" />
-        <!--[if lt IE 9]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <link href="/stylesheets/fonts.css" rel="stylesheet" />
-        <link href="/stylesheets/style.css" rel="stylesheet" />
-        <link href="/stylesheets/colors-light.css" rel="stylesheet" />
-        <link href="/stylesheets/code-colors-dark.css" rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="/stylesheets/fonts.css" rel="stylesheet" />
+    <link href="/stylesheets/style.css" rel="stylesheet" />
+    <link href="/stylesheets/colors-light.css" rel="stylesheet" />
+    <link href="/stylesheets/code-colors-dark.css" rel="stylesheet" />
 
-        {% include segment-io-prime.html %}
-    </head>
+    {% include segment-io-prime.html %}
+  </head>
 
-    <body>
-        <header id="header">
-            <h1><a href="/">{{ site.title }}</a></h1>
-            <p>{{ site.description }}</p>
-        </header>
-        <div id="page">
-            <div id="sidebar">
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/archives">Archive</a></li>
-                        <li><a href="/colophon">Colophon</a></li>
-                        <li><a href="/feed.xml">Feed</a></li>
-                    </ul>
-                </nav>
-            </div>
+  <body>
+    <header id="header">
+      <h1><a href="/">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+    </header>
+    <div id="page">
+      <div id="sidebar">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/archives">Archive</a></li>
+            <li><a href="/colophon">Colophon</a></li>
+            <li><a href="/feed.xml">Feed</a></li>
+          </ul>
+        </nav>
+      </div>
 
-            <div id="content">
-                {{ content }} {% include segment-io-ultime.html %}
-            </div>
-        </div>
+      <div id="content">{{ content }} {% include segment-io-ultime.html %}</div>
+    </div>
 
-        <footer id="footer">
-            <p class="copyright">
-                Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author }}.
-            </p>
-        </footer>
-    </body>
+    <footer id="footer">
+      <p class="copyright">
+        Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author }}.
+      </p>
+    </footer>
+  </body>
 </html>
